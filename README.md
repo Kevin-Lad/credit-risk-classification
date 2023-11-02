@@ -10,20 +10,19 @@
 
 * The dataset has information on a total of 77,536 loans. 2,500 of those loans are high risk, and 75,036 are healthy loans. 
 
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+* The steps in the machine learning process that I used here are the following: preprocess the data, train the model, validate the model and finally predict the outcome. 
+
+* For this problem, I used a logistic regression model, which is a statistical method for predicting a binary outcome from the data.
 
 ## Results
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+* Logistic Regression Model:
+  *  Accuracy: 
+  *  Precision: 
+  *  Recall : 
 
-
-
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
 
 ## Summary
 
