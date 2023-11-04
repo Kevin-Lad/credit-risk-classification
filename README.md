@@ -19,15 +19,15 @@
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Logistic Regression Model:
-  *  Accuracy: 
-  *  Precision: 
-  *  Recall : 
+  *  Accuracy: This model is 99 percent accurate.
+  *  Precision: The model predicts healthy loans 100 percent of the time and high-risk loans 87 percent of the time.
+  *  Recall : Thej recall for healthy loans is also 100 percent and high-risk loans is 89 percent.
 
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+Summarize the results of the machine learning model. For example.
 
-If you do not recommend any of the models, please justify your reasoning.
+* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? ) Here we are trying to analyze the credit worthiness of a borrower. This model predicts 100 percent of the time when a borrower will repay a healthy loan. This model is outstanding for healthy loans, you can't get better than 100 percent, so I recommend this for a healthy loan. On the other hand, 87 percent of the time, this model predicts when a high-risk loan would be paid back. 87 percent seems pretty good for most real life situations. In this case though, that means the model is wrong 13 percent of the time. When it comes to lending out money, I don't think that being wrong 13 percent of the time is good enough, so I do not recommend this model.
+
+
